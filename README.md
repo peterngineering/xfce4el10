@@ -9,4 +9,6 @@ This step is not currently saved to a confuration either, so has to be done on e
 
 See Screenshots for examples.
 
-More SPECS to be added soon, along with RPMS/SRPMS in releases. 
+More SPECS to be added soon, along with RPMS/SRPMS in releases.  
+
+*Only the minimal required will be included, only whats missing from repos and RPMS requiring changes to make it work, eg. network-manager-applet (nm-applet) changes were required for el10 in the spec, so its included with a higher level build release of '9999'. This will allow the same naming and upgrade any present non-functional versions when testing with XFCE4/Wayland.*
