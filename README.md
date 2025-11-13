@@ -6,4 +6,5 @@
 
 *At this time, xfce4-panel is the main parent process under labwc/wayland, and you must (for now) manually choose fullscreen on startup, to properly place the panel*
 
-See photos.
+See photos for examples.
+
