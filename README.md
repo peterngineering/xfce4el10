@@ -1,4 +1,4 @@
-### Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
+### SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
 
 *This is only for testing/not production.*
 
