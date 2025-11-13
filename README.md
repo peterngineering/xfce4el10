@@ -7,7 +7,7 @@
 *At this time, xfce4-panel is the main parent process under labwc/wayland, and you must (for now) manually choose 'fullscreen' on startup, to properly place the panel.
 This step is not currently saved to a confuration either, so has to be done on each login. Hopefully, a sticky config will appear in a rpm here once figured out.*
 
-See Screenshots for examples.(If its not obvious, the terminal is just for grim, which is used to take screenshots)
+See Screenshots for examples.(*If its not obvious, the terminal is just for grim, which is used to take screenshots*)
 
 More SPECS to be added soon, along with RPMS/SRPMS in releases.  
 
