@@ -8,3 +8,4 @@
 
 See photos for examples.
 
+More SPECS to be added soon, along with RPMS/SRPMS in releases. 
