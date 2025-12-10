@@ -29,7 +29,7 @@ Soon I will upload the  SRPMS here, and release tarballs of the RPMS.*
 FYI, I mostly use F43 SRPMS as upstream sources with a few older in order to keep from upgrading OS/EPEL available packages. I try my best to NOT modify or upgrade
 OS/EPEL packages. I'm also trying to rebuild the EL10/clones packages with minimal SPEC modifciations as well. This requires a precise order due to vala trying to work it's way in early in core XFCE packages.
 
-The idea will be that a person can start with a minimal install console only or and existign install 
+The idea will be that a person can start with a minimal install console only or and existing install 
 and then :
 <code>
 dnf install *.rpm
