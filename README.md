@@ -1,5 +1,4 @@
-Making stable long life cycle OS(EL10*), alternative desktop options available.
-
+Making stable long life cycle OS(EL10*), alternative desktop options available and thereby encouragig others to include it in EPEL asap, or as upstream ALLOWS!
 ### Part 1:
 ### PORTING XFCE4 to EL10/Clones! 
 ## SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
