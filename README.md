@@ -1,4 +1,4 @@
-Making stable long life cycle OS(EL*), alternative desktop options available.
+Making stable long life cycle OS(EL10*), alternative desktop options available.
 
 ### Part 1:
 ### PORTING XFCE4 to EL10/Clones! 
