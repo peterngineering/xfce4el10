@@ -1,8 +1,23 @@
 ### SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
 
-*This is only for testing/not production.*
 
-*XFCE4  is functional on EL10/clones when built for pure wayland*
+<hr>
+
+**Fresh Meme!**
+
+## Hey, I'm on Wayland....with XFCE4 :) 
+
+*This is only for testing/not production quality yet*
+
+*XFCE4 4.20.x on Wayland is functional on EL10/clones. It can be started up via 
+<code>
+startxfce --wayland
+</code>
+
+Or 
+
+One can use GDM.
+
 
 Recent rebuilds have resolved most outstanding issues.
   
@@ -10,8 +25,26 @@ Recent rebuilds have resolved most outstanding issues.
   Most all plugins seem to work now.
 
 *Rebuilding both sets x86_64(v3, the default) and x86_64_v2(for older hw)
-Soon I will upload the  SRPMS here, and release tarballs of the RPMS.
+Soon I will upload the  SRPMS here, and release tarballs of the RPMS.*
+FYI, I mostly use F43 SRPMS as upstream sources with a few older in order to keep from upgrading OS/EPEL available packages. I try my best to NOT modify or upgrade
+OS/EPEL packages. I'm also trying to rebuild the EL10/clones packages with minimal SPEC modifciations as well. This requires a precise order due to vala trying to work it's way in early in core XFCE packages.
+
+The idea will be that a person can start with a minimal install console only or and existign install 
+and then :
+<code>
+dnf install *.rpm
+</code>
+
+*I have not created a package group or meta pkg  of the components/deps yet, so installing via a custom repo is a little more tedious as you need to know which packages to install. So for now its easier for most to just use the dnf * method.*
 
 
-*I'm also building some applications from goffice, those will go in another GH project.
+In Summary, things are progressing well. XFCE4 looks and runs great on Wayland with very little CPU cycles wasted and its very low on memory usage too!
+*Running a lite yet modern functional Desktop on Wayland EL10/Clones is here!*
+
+Maybe I will spin up a Alma10.X XFCE on Wayland. Live soon as well.
+
+Other news:
+I'm also building some applications such as goffice, those will go in other GH project(s).
+Note, native gimp builds for pure wayland also work as well(minus batch building).
+I think some work still needs to be done porting xwayland-run --> Xvfb-run in order to make it fully functional with batch processing.
 
