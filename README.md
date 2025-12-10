@@ -41,7 +41,7 @@ dnf install *.rpm
 In Summary, things are progressing well. XFCE4 looks and runs great on Wayland with very little CPU cycles wasted and its very low on memory usage too!
 *Running a lite yet modern functional Desktop on Wayland EL10/Clones is here!*
 
-Maybe I will spin up a Alma10.X XFCE on Wayland. Live soon as well.
+Maybe I will spin up a Alma10.X XFCE Live on Wayland soon as well.
 
 Other news:
 I'm also building some applications such as goffice, those will go in other GH project(s).
