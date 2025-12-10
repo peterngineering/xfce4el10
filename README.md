@@ -1,6 +1,8 @@
 Making stable long life cycle OS(EL10*), alternative desktop options available and thereby encouraging others to include it in EPEL asap, or as upstream ALLOWS!
 Upstream wants a pure KDE/GNOME, I say 'NOPE', it's too late for that concept. If it's in Fedora, it's going to filter down to EL10/Clones. Some people don't require a SIG to tell them what or how to make it happen, though a SIG can be helpful in other ways :)
 
+*NOTE: I just love how Ai automagially tells me in comments excactly what I've mis-spelled but somehow neglects to suggest that prior to my original commit!
+
 ### Part 1:
 ### PORTING XFCE4 to EL10/Clones! 
 ## SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
