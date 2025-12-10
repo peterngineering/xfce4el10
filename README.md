@@ -1,4 +1,7 @@
-### PORTING XFCE4 to EL10/Clones!
+Making stable long life cycle OS(EL*), alternative desktop options available.
+
+### Part 1:
+### PORTING XFCE4 to EL10/Clones! 
 ## SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
 
 
