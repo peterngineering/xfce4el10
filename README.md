@@ -1,5 +1,5 @@
 Making stable long life cycle OS(EL10*), alternative desktop options available and thereby encouragig others to include it in EPEL asap, or as upstream ALLOWS!
-Upstream wants a pure KDE/GNOME, I say 'NOPE', it's too late for that concept. If it's in Fedora, it's going to filter down to EL.
+Upstream wants a pure KDE/GNOME, I say 'NOPE', it's too late for that concept. If it's in Fedora, it's going to filter down to EL10/Clones.
 
 ### Part 1:
 ### PORTING XFCE4 to EL10/Clones! 
