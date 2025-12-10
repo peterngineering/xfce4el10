@@ -1,18 +1,22 @@
+**Fresh Meme!**
+
+## Hey, I'm on Wayland....with XFCE4 :) 
+
 Making stable long life cycle OS(EL10*), alternative desktop options available and thereby encouraging others to include it in EPEL asap, or as upstream ALLOWS!
 Upstream wants a pure KDE/GNOME, I say 'NOPE', it's too late for that concept. If it's in Fedora, it's going to filter down to EL10/Clones. Some people don't require a SIG to tell them what or how to make it happen, though a SIG can be helpful in other ways :)
 
-*NOTE: I just love how Ai automagially tells me in comments exactly what I've mis-spelled but somehow neglects to suggest a change prior to my original commit! I can see Ai is totally self serving already!
+
 
 ### Part 1:
 ### PORTING XFCE4 to EL10/Clones! 
 ## SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
 
+<img width="2156" height="2330" alt="xfce4-about" src="https://github.com/user-attachments/assets/e72b26d0-319d-4f1a-93d7-c46b765e3297" />
+
+
 
 <hr>
 
-**Fresh Meme!**
-
-## Hey, I'm on Wayland....with XFCE4 :) 
 
 *This is only for testing/not production quality yet*
 
@@ -44,9 +48,18 @@ dnf install *.rpm
 
 *I have not created a package group or meta pkg  of the components/deps yet, so installing via a custom repo is a little more tedious as you need to know which packages to install. So for now its easier for most to just use the dnf * method.*
 
+<img width="2736" height="1824" alt="Desktop1" src="https://github.com/user-attachments/assets/236d8433-6f05-424d-9abf-a642e42d05dd" />
 
 In Summary, things are progressing well. XFCE4 looks and runs great on Wayland with very little CPU cycles wasted and its very low on memory usage too!
 *Running a lite yet modern functional Desktop on Wayland EL10/Clones is here!*
+
+
+<img width="5472" height="3648" alt="Desktop2" src="https://github.com/user-attachments/assets/c7a43351-c02f-4160-add0-c181a17b0d69" />
+
+
+
+
+
 
 Maybe I will spin up a Alma10.X XFCE Live on Wayland soon as well.
 
@@ -54,4 +67,8 @@ Other news:
 I'm also building some applications such as goffice, those will go in other GH project(s).
 Note, native gimp builds for pure wayland also work as well(minus batch building).
 I think some work still needs to be done porting xwayland-run --> Xvfb-run in order to make it fully functional with batch processing.
+
+
+
+
 
