@@ -3,12 +3,9 @@
 ## Hey, I'm on Wayland....with XFCE4 :) 
 
 Making stable long life cycle OS(EL10*), alternative desktop options available and thereby encouraging others to include it in EPEL asap, or as upstream ALLOWS!
-Upstream wants a pure KDE/GNOME, I say 'NOPE', it's too late for that concept. If it's in Fedora, it's going to filter down to EL10/Clones. Some people don't require a SIG to tell them what or how to make it happen, though a SIG can be helpful in other ways :)
 
 
 
-### Part 1:
-### PORTING XFCE4 to EL10/Clones! 
 ## SPECS/Source/Releases for testing XFCE4 on Wayland/labwc on el10/clones
 
 <img width="2156" height="2330" alt="xfce4-about" src="https://github.com/user-attachments/assets/e72b26d0-319d-4f1a-93d7-c46b765e3297" />
@@ -37,8 +34,6 @@ Recent rebuilds have resolved most outstanding issues.
 
 *Rebuilding both sets x86_64(v3, the default) and x86_64_v2(for older hw)
 Soon I will upload the  SRPMS here, and release tarballs of the RPMS.*
-FYI, I mostly use F43 SRPMS as upstream sources with a few older in order to keep from upgrading OS/EPEL available packages. I try my best to NOT modify or upgrade
-OS/EPEL packages. I'm also trying to rebuild the EL10/clones packages with minimal SPEC modifciations as well. This requires a precise order due to vala trying to work it's way in early in core XFCE packages.
 
 The idea will be that a person can start with a minimal install console only or and existing install 
 and then :
@@ -55,9 +50,10 @@ In Summary, things are progressing well. XFCE4 looks and runs great on Wayland w
 
 ## Updated 2025/12/17.
 *Getting closer to release, just rebuilding and retesting on x86_64/x86_64v2 and aarch64. Trying to ensure minimal changes as possible to the rpm specs.*
+*After this I will setup rebuilding tests with mock, then shortly after upload the resulting RPMS/SRPMS here.*
+*I had planned to upload the specs seperate,  but I've decided that since the SRPMS already will have the changes, that is good enough. The rpm spec history will clearly show which upsgream sources were used. Other distros have their own systems anyway so this really should be a non-issue and a lot less tedious to manage.*
 
-
-Maybe I will spin up a Alma10.X XFCE Live on Wayland soon as well.
+*Later on, I may spin up a  Alma10.X XFCE Live on Wayland soon as well. For now I'll just provide RPMS and easy instructions.*
 
 Other news:
 I'm also building some applications such as goffice, those will go in other GH project(s).
