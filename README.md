@@ -53,12 +53,8 @@ dnf install *.rpm
 In Summary, things are progressing well. XFCE4 looks and runs great on Wayland with very little CPU cycles wasted and its very low on memory usage too!
 *Running a lite yet modern functional Desktop on Wayland EL10/Clones is here!*
 
-
-<img width="5472" height="3648" alt="Desktop2" src="https://github.com/user-attachments/assets/c7a43351-c02f-4160-add0-c181a17b0d69" />
-
-
-
-
+## Updated 2025/12/17.
+*Getting closer to release, just rebuilding and retesting on x86_64/x86_64v2 and aarch64. Trying to ensure minimal changes as possible to the rpm specs.*
 
 
 Maybe I will spin up a Alma10.X XFCE Live on Wayland soon as well.
